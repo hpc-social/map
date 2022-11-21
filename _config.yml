@@ -1,0 +1,100 @@
+# --- General options --- #
+
+url: "https://hpc-social.github.io"
+baseurl: "/map"
+title-img: /assets/img/logo.png
+twitter-img: /assets/img/logo.png
+mapbox: "pk.eyJ1IjoidnNvY2giLCJhIjoiY2sxdXE4dGZ6MGxveTNibzBqc2E5OXpzbiJ9.OdVyKYmHLhSsk03iQoN1kw"
+
+# Name of website
+title: HPC.social
+github_url: hpc-social/map
+
+# Short description of your site
+description: The HPC.social Community
+
+# --- Navigation bar options --- #
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/img/logo.png"
+
+# List of links in the navigation bar
+navbar-links:
+  Home: "https://us-rse.org"
+
+# --- Background colour/image options --- #
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#0d878c"
+navbar-text-col: "#ffffff"
+navbar-children-col: "#500e3d"
+page-col: "#0d878c"
+link-col: "#31dce4"
+hover-col: "#31dce4"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+
+#navbar-img: "../img/rse-transport-light.png"
+# footer-img: "../img/rse-transport-light.png"
+# page-img: "/img/bgimage.png"
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: HPC-social
+
+# Social Network Links
+social-network-links:
+  github: hpc-social
+  twitter: vsoch
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: false
+  google: false
+  linkedin: false
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "hpc.social"
+
+# Output options (more information on Jekyll's site)
+timezone: "America/New_York"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: false
+      css: /assets/css/custom.css
+
+# Use tags index page and make tags on each post clickable
+link-tags: true
+
+# Exclude these files from production site
+exclude:
+  - _site
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - tests
+  - vendor
