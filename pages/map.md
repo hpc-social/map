@@ -1,7 +1,7 @@
 ---
 layout: page
-title: US-RSE
-subtitle: The US Research Software Engineer Association Map
+title: hpc.social
+subtitle: The hpc.social Community HPC Resources Map
 use-site-title: true
 permalink: /
 ---
