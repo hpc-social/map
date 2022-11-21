@@ -11,5 +11,5 @@ Stay tuned! 🎵️
 
 ## 🎨️ Thanks 🎨️
 
-The HPC.social map is derived from the [US-RSE Map](https://us-rse.org/usrse-mapo) which was
+The HPC.social map is derived from the [US-RSE Map](https://us-rse.org/usrse-map) which was
 also designed and implemented by [@vsoch](https://github.com/vsoch).
