@@ -66,6 +66,7 @@ def write_rows(filepath, rows, sep=","):
         [writer.writerow(row) for row in rows]
     print("Wrote locations and counts to %s." % filepath)
 
+
 def read_rows(filepath, newline="", delim=","):
     """
     read in the data rows of a csv file.
@@ -87,17 +88,19 @@ def parse_location_line(line):
     city = parts[2].strip()
     country = parts[3].strip()
 
-    is_individual = True
     name = None
-    if len(parts) > 4:
-        is_individual = parts[4].strip() in ["", None]
+    url = None
+    if len(parts) > 6:
+        url = parts[6].strip()
     if len(parts) > 5:
         name = parts[5].strip().replace(",", "-")
+
     entry = {
         "state": state,
         "city": city,
         "country": country,
-        "is_individual": is_individual,
+        "is_individual": url is None,
+        "url": url,
         "name": name,
     }
 
@@ -199,6 +202,9 @@ def main():
         if entry["address"] not in locations and entry["address"] != "remote":
             unknown.add(entry["address"])
             continue
+        # Skip group entries
+        if entry["is_individual"] == False:
+            continue
         if entry["address"] not in names:
             names[entry["address"]] = {"count": 0, "names": set()}
         names[entry["address"]]["count"] += 1
@@ -239,14 +245,20 @@ def main():
     write_rows(get_filepath(), updated)
 
     # Now update group locations
-    groups = [["address", "lat", "lng", "name"]]
+    groups = [["address", "lat", "lng", "name", "url"]]
 
     for entry in entries:
         if entry["address"] not in locations and entry["address"] != "remote":
             continue
-        if entry["name"]:
+        if entry["name"] and entry["url"]:
             groups.append(
-                [entry['address'], locations[entry['address']][0], locations[entry['address']][1], entry["name"]]
+                [
+                    entry["address"],
+                    locations[entry["address"]][0],
+                    locations[entry["address"]][1],
+                    entry["name"],
+                    entry["url"],
+                ]
             )
     write_rows(get_group_filepath(), groups)
 

@@ -32,14 +32,13 @@ permalink: /
     background-color: #31dce4;
     opacity: .9;
     border-radius: 50%;
-
   }
   .mapboxgl-popup {
-    max-width: 200px;
+    max-width: 250px;
   }
 
   .mapboxgl-popup-content {
-    text-align: center;
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
   }
   /* From https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/ */
@@ -63,7 +62,6 @@ permalink: /
     height: auto;
     width: auto;
   }
-
   .legend-key {
     display: inline-block;
     border-radius: 20%;
@@ -111,6 +109,7 @@ permalink: /
     },
     data: {
        name: '{{ loc.address }}',
+       description: '{{ loc.name }}',
        count: {{ loc.count }},
     },
   }{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
@@ -127,6 +126,7 @@ permalink: /
       properties: {
         title: '{{ grp.name }}',
         description: '{{ grp.name }}',
+        url: '{{ grp.url }}',
       },
       size: {
         width: 15,
@@ -134,7 +134,8 @@ permalink: /
       },
       data: {
         name: '{{ grp.name }}',
-        address: '{{ grp.address }}'
+        address: '{{ grp.address }}',
+        url: '{{ grp.url }}'
       },
     }{% if forloop.last %} {% else %},{% endif %}{% endfor %}]
   };
@@ -144,14 +145,23 @@ permalink: /
     el.className = 'marker';
     el.setAttribute('style', 'width: ' + marker.size.width + 'px; height: ' + marker.size.height + 'px;');
 
+    description = ""
+    console.log(marker.data)
+    if (marker.data.description != "") {
+          description = '<p style="margin: 0; padding: 0;">' +
+            '<strong>people</strong>: ' + marker.data.description +
+          '</p>'
+    }
+    
     var popup = new mapboxgl.Popup({ offset: 25 })
       .setHTML(
         '<div style="padding-top: 15px; padding-bottom: 5px;">' +
-          '<p style="margin: 0; padding: 0;">' + marker.data.name +
-          '</p>' +
+          '<p style="margin: 0; padding: 0;"><strong>' + marker.data.name +
+          '</strong></p>' +
           '<p style="margin: 0; padding: 0;">' +
-            'Count: ' + marker.data.count +
+            '<strong>count</strong>: ' + marker.data.count +
           '</p>' +
+            description +
         '</div>'
       );
 
@@ -170,8 +180,7 @@ permalink: /
       .setHTML(
         '<div style="padding-top: 15px; padding-bottom: 5px;">' +
           '<p style="margin: 0; padding: 0;">' +
-            marker.data.name +
-            //'<a href=' + marker.data.url +' target="_blank">' + marker.data.name + ' Regional RSE Group</a>' +
+            '<a href=' + marker.data.url +' target="_blank">' + marker.data.name + '</a>' +
           '</p>' +
         '</div>'
       );
