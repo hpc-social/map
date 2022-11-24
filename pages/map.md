@@ -22,14 +22,14 @@ permalink: /
     bottom:0px !important;
     }
   .marker {
-    background-color: #99266e;
+    background-color: #1c2e71;
     opacity: 0.5;
     background-size: cover;
     border-radius: 50%;
     cursor: pointer;
   }
   .grp_marker {
-    background-color: #FFC107;
+    background-color: #31dce4;
     opacity: .9;
     border-radius: 50%;
 
@@ -102,7 +102,7 @@ permalink: /
       coordinates: [{{ loc.lng }}, {{ loc.lat }}]
     },
     properties: {
-      title: '{{ loc.name | capitalize }}',
+      title: '{{ loc.address | capitalize }}',
       description: '{{ loc.name }}',
     },
     size: {
@@ -110,7 +110,7 @@ permalink: /
       height: Math.sqrt({{ loc.count }})*15,
     },
     data: {
-       name: '{{ loc.name }}',
+       name: '{{ loc.address }}',
        count: {{ loc.count }},
     },
   }{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
@@ -134,7 +134,7 @@ permalink: /
       },
       data: {
         name: '{{ grp.name }}',
-        url: '{{ grp.url }}'
+        address: '{{ grp.address }}'
       },
     }{% if forloop.last %} {% else %},{% endif %}{% endfor %}]
   };
@@ -170,7 +170,8 @@ permalink: /
       .setHTML(
         '<div style="padding-top: 15px; padding-bottom: 5px;">' +
           '<p style="margin: 0; padding: 0;">' +
-            '<a href=' + marker.data.url +' target="_blank">' + marker.data.name + ' Regional RSE Group</a>' +
+            marker.data.name +
+            //'<a href=' + marker.data.url +' target="_blank">' + marker.data.name + ' Regional RSE Group</a>' +
           '</p>' +
         '</div>'
       );
@@ -182,7 +183,7 @@ permalink: /
 
   // create legend: from https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/
   const legend = document.getElementById('legend');
-  const colors = ['#1c2e71', '#283a9b']
+  const colors = ['#1c2e71', '#31dce4']
   const layers = ['Community Members','Community Groups'];
   layers.forEach((layer, i) => {
     const color = colors[i];

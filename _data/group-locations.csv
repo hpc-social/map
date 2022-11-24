@@ -1,1 +1,14 @@
-name,lat,lng,url
+address,lat,lng,name
+"urbana, illinois, united states",40.1117174,-88.207301,galen_arnold
+"sammamish, washington, united states",47.6088445,-122.0423067,Suhaib Khan
+"santa clara, california, united states",37.2333253,-121.6846349,no
+"berkeley, california, united states",37.8753497,-122.23963364918777,NERSC
+"edinburgh, united kingdom",55.9533456,-3.1883749,EPCC
+"singapore, singapore",1.357107,103.8194992,Miguel Dias Costa
+"cordoba, cordoba, argentina",-31.4173391,-64.183319,Carlos Bederian
+"london, united kingdom",51.5073219,-0.1276474,John Hearns
+"denver, colorado, united states",39.7392364,-104.984862,ajdecon
+"rottenburg am neckar, baden-wurttemberg, germany",48.47696,8.9336788,Presalesperson at the Edge
+"lubbock, texas, united states",33.5635206,-101.879336,Texas Tech University High Performance Computing Center
+"cambridge, massachusetts, usa",42.3750997,-71.1056157,MIT Office of Research Computing and Data
+"cambridge, massachusetts, usa",42.3750997,-71.1056157,James Cuff- Executive Director @ MIT

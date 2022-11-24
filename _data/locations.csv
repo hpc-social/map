@@ -1,1 +1,23 @@
-name,lat,lng,count
+address,lat,lng,count,name
+"boulder, colorado, united states",40.0154155,-105.270241,1,
+"urbana, illinois, united states",40.1117174,-88.207301,1,galen_arnold
+"university city, missouri, united states",38.6569083,-90.3103443,1,
+"sammamish, washington, united states",47.6088445,-122.0423067,1,Suhaib Khan
+"santa clara, california, united states",37.2333253,-121.6846349,1,no
+"boston, massachusetts, united states of america",42.3554334,-71.060511,1,
+"ilmenau, thuringia, germany",50.6867695,10.9142385,1,
+"berkeley, california, united states",37.8753497,-122.23963364918777,1,NERSC
+"edinburgh, united kingdom",55.9533456,-3.1883749,1,EPCC
+"singapore, singapore",1.357107,103.8194992,1,Miguel Dias Costa
+"lubbock, texas, usa",33.5635206,-101.879336,1,
+"cookeville, tennessee, united states",36.1623886,-85.4997057,1,
+"cordoba, cordoba, argentina",-31.4173391,-64.183319,1,Carlos Bederian
+"london, united kingdom",51.5073219,-0.1276474,1,John Hearns
+"grenoble, france",45.1875602,5.7357819,1,
+"durham, united kingdom",54.666667,-1.75,1,
+"denver, colorado, united states",39.7392364,-104.984862,1,ajdecon
+"rottenburg am neckar, baden-wurttemberg, germany",48.47696,8.9336788,1,Presalesperson at the Edge
+"lubbock, texas, united states",33.5635206,-101.879336,1,Texas Tech University High Performance Computing Center
+"cambridge, massachusetts, usa",42.3750997,-71.1056157,2,James Cuff- Executive Director @ MIT|MIT Office of Research Computing and Data
+"los angeles, california, usa",34.0536909,-118.242766,1,
+"canberra, australian capital territory, australia",-35.2975906,149.1012676,1,
