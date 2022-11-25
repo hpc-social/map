@@ -22,7 +22,6 @@ avatar: "/assets/img/logo.png"
 # List of links in the navigation bar
 navbar-links:
   Home: "https://hpc-social.github.io"
-  Table: "tabular"
 
 # --- Background colour/image options --- #
 
@@ -55,7 +54,7 @@ author:
 # Social Network Links
 social-network-links:
   github: hpc-social
-  twitter: hpc_social
+  twitter: vsoch
 
 # Select which share links to show in posts
 share-links-active:

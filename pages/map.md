@@ -193,7 +193,7 @@ permalink: /
   // create legend: from https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/
   const legend = document.getElementById('legend');
   const colors = ['#1c2e71', '#31dce4']
-  const layers = ['Community Members','Centers and Groups'];
+  const layers = ['Community Members','Community Groups'];
   layers.forEach((layer, i) => {
     const color = colors[i];
     const item = document.createElement('div');
