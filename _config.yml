@@ -22,7 +22,6 @@ avatar: "/assets/img/logo.png"
 # List of links in the navigation bar
 navbar-links:
   Home: "https://hpc-social.github.io"
-  Table: "tabular"
 
 # --- Background colour/image options --- #
 

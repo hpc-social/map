@@ -6,7 +6,6 @@ use-site-title: true
 permalink: /
 ---
 
-
 <style>
   #map {
     position: absolute; 

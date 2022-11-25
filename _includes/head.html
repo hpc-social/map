@@ -11,48 +11,18 @@
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
   {% include gtm_head.html %}
-  {% include google_analytics.html %}
 
-  {% if layout.common-ext-css %}
-    {% for css in layout.common-ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/bootstrap-social.css" />
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css" />
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/custom.css" />
 
-  {% if layout.common-css %}
-    {% for css in layout.common-css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}" />
-    {% endfor %}
-  {% endif %}
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
 
-  {% if layout.common-googlefonts %}
-    {% for font in layout.common-googlefonts %}
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
-    {% endfor %}
-  {% endif %}
-
-  {% if page.ext-css %}
-    {% for css in page.ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
-
-  {% if page.css %}
-    {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}" />
-    {% endfor %}
-  {% endif %}
-
-  {% if page.googlefonts %}
-    {% for font in page.googlefonts %}
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
-    {% endfor %}
-  {% endif %}
-
-    <!-- Facebook OpenGraph tags -->
+  <!-- Facebook OpenGraph tags -->
   {% if site.fb_app_id %}
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   {% endif %}
@@ -87,9 +57,8 @@
   {% if page.share-img %}
   <meta property="og:image" content="{{ page.share-img }}" />
   {% elsif site.avatar %}
-  <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{{ site.avatar }}" />
   {% endif %}
-
 
   <!-- Twitter summary cards -->
   {% if site.author.twitter %}
@@ -120,4 +89,5 @@
   <meta name="twitter:image" content="{{site.url}}{{site.baseurl}}{{ site.twitter-img }}" />
   {% endif %}
 
+  <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery-1.11.2.min.js"></script>
 </head>
