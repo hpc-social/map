@@ -3,7 +3,6 @@ layout: page
 title: hpc.social table
 subtitle: The hpc.social Community HPC Resources Table
 use-site-title: true
-skip_jquery: true
 permalink: tabular/
 ---
     
