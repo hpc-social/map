@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       {% if site.title-img %}
-        <a class="navbar-brand navbar-brand-logo logo" href="{{ site.url }}{{ site.baseurl }}/"><img alt="logo" src="{{site.baseurl}}{{ site.title-img }}"/></a>
+        <a class="navbar-brand navbar-brand-logo logo" href="{{ site.url }}{{ site.baseurl }}/"><img alt="logo" src="{{ site.url }}{{ site.baseurl }}{{ site.title-img }}"/></a>
       {% else %}
         <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
       {% endif %}
@@ -34,6 +34,7 @@
           </li>
         {% endif %}
         {% endfor %}
+       {% if page.url == "/" %}<li><a href="{{ site.url }}{{ site.baseurl }}/tabular/" class="no-after"> Table</i></a></li>{% else %}<li><a href="{{ site.url }}{{ site.baseurl }}/" class="no-after"> Map</i></a></li>{% endif %}  
        <li><a href="https://github.com/{{ site.github_url }}" class="no-after" target="_blank"> GitHub</i></a></li>
        <li><a href="{{ site.url }}/search" class="no-after" id="search-toggle"> <i class="fa fa-search" style="margin-right:20px"></i></a></li>
       </ul>

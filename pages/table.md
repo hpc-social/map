@@ -6,7 +6,6 @@ use-site-title: true
 permalink: tabular/
 ---
     
-<script src='https://code.jquery.com/jquery-3.5.1.js'></script>
 <link rel='stylesheet' href='https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css'>
 
 <style>
@@ -41,36 +40,31 @@ thead {
 </table>
 </div>
 
-
 <script>
 $(document).ready(function () {
 
 $.getJSON("{{ site.baseurl }}/api/data.json", function(data) {
-console.log(data)
-$('#software').DataTable({
-  data: data,
-  pageLength: 50,
-  columns: [
-    { data: "address" },
-    { data: "type"},
-    { data: "count"},
-    { data: "name"},
-    { data: "website", 
-      render: function ( data, type, row ) { 
-         if (data != "") {
-             return "<a target='_blank' type='button' class='btn btn-primary' href='" + data + "'>Website</a>"
-         }
-         return ""
+  $('#software').DataTable({
+    data: data,
+    pageLength: 50,
+    columns: [
+      { data: "address" },
+      { data: "type"},
+      { data: "count"},
+      { data: "name"},
+      { data: "website", 
+        render: function ( data, type, row ) { 
+           if (data != "") {
+               return "<a target='_blank' type='button' class='btn btn-primary' href='" + data + "'>Website</a>"
+           }
+           return ""
+        },
       },
-    },
-  ]
-});
+    ]
+  });
 });
 
-
-// Ensure search is aligned to the right!
-$('#software_filter').parent().attr("class", "col-md-12")
+  // Ensure search is aligned to the right!
+  $('#software_filter').parent().attr("class", "col-md-12")
 })
 </script>
-<script src='https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js'></script>
-<script src='https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js'></script>

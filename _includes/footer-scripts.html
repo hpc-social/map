@@ -1,32 +1,6 @@
-{% if layout.common-ext-js %}
-  {% for js in layout.common-ext-js %}
-    {% include ext-js.html js=js %}
-  {% endfor %}
-{% endif %}
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
+<script src='https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js'></script>
+<script src='https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js'></script>
 
-{% if page.ext-js %}
-  {% for js in page.ext-js %}
-    {% include ext-js.html js=js %}
-  {% endfor %}
-{% endif %}
 
-{% if page.js %}
-  {% for js in page.js %}
-	<script src="{{ js | prepend: site.baseurl }}"></script>
-  {% endfor %}
-{% endif %}
-
-{% if layout.common-js %}
-  {% for js in layout.common-js %}
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    {% if js contains 'jquery' %}
-      <script>
-      	if (typeof jQuery == 'undefined') {
-      	  document.write('<script src="{{ js | prepend: site.baseurl }}"></scr' + 'ipt>');
-      	}
-      </script>
-    {% else %}
-	<script src="{{ js | prepend: site.baseurl }}"></script>
-    {% endif %}
-  {% endfor %}
-{% endif %}
