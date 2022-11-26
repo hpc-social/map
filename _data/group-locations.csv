@@ -4,3 +4,7 @@ address,lat,lng,name,url
 "cambridge, massachusetts, united states",42.3750997,-71.1056157,MIT Office of Research Computing and Data,https://orcd.mit.edu/
 "zagreb, zagreb, croatia",45.84264135,15.962231476593626,University of Zagreb- University Computing Centre- Croatia,https://www.srce.hr/en/
 "lubbock, texas, united states",33.5635206,-101.879336,Texas Tech University High Performance Computing Center,https://www.depts.ttu.edu/hpcc
+"sheffield, south yorkshire, united kingdom",53.3806626,-1.4702278,Research and Innovation IT- IT Services- University of Sheffield,https://www.sheffield.ac.uk/it-services
+"urbana, il, usa",40.1117174,-88.207301,The National Center for Supercomputing Applications,https://ncsa.illinois.edu
+"sheffield, south yorkshire, united kingdom",53.3806626,-1.4702278,University of Sheffield - IT Services Research & Innovation team at the,https://github.com/rcgsheffield
+"sheffield, south yorkshire, united kingdom",53.3806626,-1.4702278,University of Sheffield - IT Services - Research & Innovation IT team,https://github.com/rcgsheffield
