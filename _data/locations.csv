@@ -16,7 +16,7 @@ address,lat,lng,count,name
 "denver, colorado, united states",39.7392364,-104.984862,1,ajdecon
 "rottenburg am neckar, baden-wurttemberg, germany",48.47696,8.9336788,1,Presalesperson at the Edge
 "cambridge, massachusetts, united states",42.3750997,-71.1056157,1,James Cuff- Executive Director @ MIT
-"los angeles, california, united states",34.0536909,-118.242766,1,
+"los angeles, california, united states",34.0536909,-118.242766,2,
 "canberra, australian capital territory, australia",-35.2975906,149.1012676,1,
 "melbourne, victoria, australia",-37.8142176,144.9631608,1,Matt
 "austin, texas, united states",30.2711286,-97.7436995,1,
@@ -27,3 +27,8 @@ address,lat,lng,count,name
 "oakland, california, united states",37.8044557,-122.271356,1,Glenn K. Lockwood
 "middletown, new york, united states",40.8397222,-73.8316667,1,
 "bloomington, indiana, united states",39.1670396,-86.5342881,1,
+"redondo beach, california, united states",33.8455911,-118.3886766,1,
+"munich, germany",48.1371079,11.5753822,1,
+"peoria, arizona, united states",33.5806115,-112.237294,1,
+"exeter, united kingdom",50.7255794,-3.5269497,1,
+"catania, italy",37.5023612,15.0873718,1,
