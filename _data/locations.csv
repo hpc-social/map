@@ -1,6 +1,6 @@
 address,lat,lng,count,name
 "boulder, colorado, united states",40.0154155,-105.270241,1,
-"urbana, illinois, united states",40.1117174,-88.207301,1,galen_arnold
+"urbana, illinois, united states",40.1117174,-88.207301,2,galen_arnold
 "university city, missouri, united states",38.6569083,-90.3103443,1,
 "sammamish, washington, united states",47.6088445,-122.0423067,1,Suhaib Khan
 "santa clara, california, united states",37.2333253,-121.6846349,1,
@@ -32,3 +32,4 @@ address,lat,lng,count,name
 "peoria, arizona, united states",33.5806115,-112.237294,1,
 "exeter, united kingdom",50.7255794,-3.5269497,1,
 "catania, italy",37.5023612,15.0873718,1,
+"erlangen, bavaria, germany",49.5928616,11.0056,1,
