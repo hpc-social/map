@@ -100,7 +100,7 @@ permalink: /
     },
     properties: {
       title: '{{ loc.address | capitalize }}',
-      description: '{{ loc.name }}',
+      description: "{{ loc.name }}",
     },
     size: {
       width: Math.sqrt({{ loc.count }})*15,
@@ -108,7 +108,7 @@ permalink: /
     },
     data: {
        name: '{{ loc.address }}',
-       description: '{{ loc.name }}',
+       description: "{{ loc.name }}",
        count: {{ loc.count }},
     },
   }{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
@@ -123,8 +123,8 @@ permalink: /
         coordinates: [{{ grp.lng }}, {{ grp.lat }}]
       },
       properties: {
-        title: '{{ grp.name }}',
-        description: '{{ grp.name }}',
+        title: "{{ grp.name }}",
+        description: "{{ grp.name }}",
         url: '{{ grp.url }}',
       },
       size: {
