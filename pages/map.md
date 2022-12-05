@@ -132,7 +132,7 @@ permalink: /
         height: 15,
       },
       data: {
-        name: '{{ grp.name }}',
+        name: "{{ grp.name }}",
         address: '{{ grp.address }}',
         url: '{{ grp.url }}'
       },
