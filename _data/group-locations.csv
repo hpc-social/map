@@ -11,3 +11,4 @@ address,lat,lng,name,url
 "west lafayette, indiana, united states",40.4258686,-86.9080655,Purdue's Rosen Center for Advanced Computing,https://www.rcac.purdue.edu/
 "stanford, california, united states",37.426540700000004,-122.17030545534064,Stanford High Performance Computing Center,https://hpcc.stanford.edu
 "san jose, california, united states",37.3361663,-121.890591,Steve Jones,https://www.hpcclusters.com
+"stanford, california, united states",37.426540700000004,-122.17030545534064,Stanford Research Computing Center,https://srcc.stanford.edu
