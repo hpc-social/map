@@ -236,7 +236,7 @@ def get_locations(lines):
                 lng = location.longitude
                 locations[address] = [lat, lng]
             else:
-                print(f"{address} is not found with geocoding." % address)
+                print(f"{address} is not found with geocoding.")
                 missing.add(address)
 
     # Ensure the group locations are added to locations
