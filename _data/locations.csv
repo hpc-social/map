@@ -26,7 +26,7 @@ address,lat,lng,count,name
 "ottawa, ontario, canada",45.4208777,-75.6901106,1,FelixCLC
 "oakland, california, united states",37.8044557,-122.271356,1,Glenn K. Lockwood
 "middletown, new york, united states",40.8397222,-73.8316667,1,
-"bloomington, indiana, united states",39.1670396,-86.5342881,1,
+"bloomington, indiana, united states",39.1670396,-86.5342881,2,
 "redondo beach, california, united states",33.8455911,-118.3886766,1,
 "munich, germany",48.1371079,11.5753822,1,
 "peoria, arizona, united states",33.5806115,-112.237294,1,
@@ -37,18 +37,25 @@ address,lat,lng,count,name
 "york, united kingdom",53.9590555,-1.0815361,1,
 "columbia, missouri, united states",38.951883,-92.3337366,1,
 "amsterdam, noord-holland, netherlands",52.3727598,4.8936041,1,Martin Hilgeman- HPC Performance Lead at Dell Technologies
-"west roxbury, ma, united states",42.2792649,-71.1494972,1,
+"west roxbury, massachusetts, united states",42.2792649,-71.1494972,1,
 "regensburg, bavaria, germany",49.0195333,12.0974869,1,Wolfgang Gentzsch
 "darmstadt, hesse, germany",49.8851869,8.6736295,1,
 "berkeley, california, united states",37.8753497,-122.23963364918777,1,
 "golden, colorado, united states",39.7546349,-105.22058,1,
 "durham, durham, united kingdom",54.7770139,-1.5756205,1,
 "toulouse, 31 - haute-garonne, france",43.6044622,1.4442469,1,
-"bloomington, in, united states",39.1670396,-86.5342881,1,
 "st austell, cornwall, united kingdom",50.338466,-4.7882104,1,
 "thuwal, saudi arabia",22.2833454,39.1128145,1,Alex Moura
 "stanford, california, united states",37.426540700000004,-122.17030545534064,1,Ruth Marinshaw
-"ithaca, ny, united states",42.43717945,-76.54836230003966,1,Ben Carr
+"ithaca, new york, united states",42.43717945,-76.54836230003966,1,Ben Carr
 "ann arbor, michigan, united states",42.2681569,-83.7312291,1,
 "julich, germany",50.9220931,6.3611015,1,Robert Speck
 "utrecht, netherlands",52.080985600000005,5.12768396945229,1,
+"blacksburg, virginia, united states",37.2296566,-80.4136767,1,Matthew Brown
+"reading, berkshire, united kingdom",51.45200635,-0.9684735493619272,1,
+"lexington, kentucky, united states",38.0464066,-84.4970393,1,
+"munich, bavaria, germany",48.1371079,11.5753822,1,
+"terre haute, indiana, united states",39.4667025,-87.4139119,1,Jeff Layton
+"troy, new york, united states",42.7284117,-73.6917878,1,
+"nashville, tennessee, usa",36.1622767,-86.7742984,1,Vanderbilt University
+"pittsburgh, pennsylvania, usa",40.4416941,-79.9900861,1,
