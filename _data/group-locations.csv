@@ -18,3 +18,4 @@ address,lat,lng,name,url
 "cambridge, massachusetts, united states",42.3750997,-71.1056157,Broad Institute of Harvard and MIT,https://www.broadinstitute.org
 "birmingham, west midlands, united kingdom",52.4796992,-1.9026911,Advanced Research Computing- University of Birmingham- UK,http://bear.bham.ac.uk
 "stanford, california, united states",37.426540700000004,-122.17030545534064,Stanford High Performance Computing Center,https://hpcc.stanford.edu
+"ghent, belgium",51.0538286,3.7250121,HPC-UGent,https://www.ugent.be/hpc
