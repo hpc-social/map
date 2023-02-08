@@ -63,3 +63,7 @@ address,lat,lng,count,name
 "cambridge, united kingdom",52.2055314,0.1186637,2,Ahmed
 "canberra, australia",-35.2975906,149.1012676,1,No
 "bergerac, france",44.8534568,0.487531,1,
+"bar harbor, maine, united states",44.3876378,-68.2043361,1,
+"faro, portugal",37.0162727,-7.9351771,1,
+"onna, okinawa, japan",26.493888,127.865372,1,
+"ithaca, new york, usa",42.43717945,-76.54836230003966,1,Self
