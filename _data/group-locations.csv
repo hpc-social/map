@@ -19,6 +19,7 @@ address,lat,lng,name,url
 "birmingham, west midlands, united kingdom",52.4796992,-1.9026911,Advanced Research Computing- University of Birmingham- UK,http://bear.bham.ac.uk
 "stanford, california, united states",37.426540700000004,-122.17030545534064,Stanford High Performance Computing Center,https://hpcc.stanford.edu
 "ghent, belgium",51.0538286,3.7250121,HPC-UGent,https://www.ugent.be/hpc
+"lincoln, nebraska, u.s.",40.725838,-96.591854,Holland Computing Center,https://hcc.unl.edu/
 "brisbane, queensland, australia",-27.4689682,153.0234991,Robert Denham,https://www.jrsrp.org.au/
 "davis, california, united states",38.545379,-121.744583,University of California- Davis,https://hpc.ucdavis.edu
 "houston, texas, united states",29.7589382,-95.3676974,Rice University,https://www.rice.edu/
