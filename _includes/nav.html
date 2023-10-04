@@ -35,6 +35,7 @@
         {% endif %}
         {% endfor %}
        {% if page.url == "/" %}<li><a href="{{ site.url }}{{ site.baseurl }}/tabular/" class="no-after"> Table</i></a></li>{% else %}<li><a href="{{ site.url }}{{ site.baseurl }}/" class="no-after"> Map</i></a></li>{% endif %}  
+       <li><a href="{{ site.url }}/projects{{ site.baseurl }}/" class="no-after" target="_blank"> Add Entry</i></a></li>
        <li><a href="https://github.com/{{ site.github_url }}" class="no-after" target="_blank"> GitHub</i></a></li>
        <li><a href="{{ site.url }}/search" class="no-after" id="search-toggle"> <i class="fa fa-search" style="margin-right:20px"></i></a></li>
       </ul>
