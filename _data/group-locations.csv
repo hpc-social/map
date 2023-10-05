@@ -25,3 +25,7 @@ address,lat,lng,name,url
 "houston, texas, united states",29.7589382,-95.3676974,Rice University,https://www.rice.edu/
 "hanover, new hampshire, united states",43.703622,-72.288666,Research Computing at Dartmouth College,https://rc.dartmouth.edu/
 "blacksburg, va, united states",37.2296566,-80.4136767,Synergy lab,https://synergy.cs.vt.edu/
+"eau claire, wisconsin, united states",44.811349,-91.4984941,Blugold Center for High Performance Computing,https://hpc.uwec.edu
+"philadelphia, pennsylvania, united states of america",39.9527237,-75.1635262,University of Pennsylvania School of Engineering and Applied Science,https://www.seas.upenn.edu/
+"philadelphia, pennsylvania, united states of america",39.9527237,-75.1635262,University of Pennsylvania- School of Engineering and Applied Science,https://www.seas.upenn.edu
+"cardiff, wales",51.4816546,-3.1791934,Group,https://www.cardiff.ac.uk/arcca
