@@ -30,3 +30,5 @@ address,lat,lng,name,url
 "philadelphia, pennsylvania, united states of america",39.9527237,-75.1635262,University of Pennsylvania- School of Engineering and Applied Science,https://www.seas.upenn.edu
 "cardiff, wales",51.4816546,-3.1791934,Group,https://www.cardiff.ac.uk/arcca
 "st. johns, newfoundland and labrador, canada",56.69228425,-60.93731851587222,OStueker,https://ace-net.ca/
+"bristol, bristol, united kingdom",51.45036305,-2.6005109540315727,Tom Deakin,https://hpc.tomdeakin.com
+"bristol, united kingdom",51.4538022,-2.5972985,High Performance Computing Research Group- University of Bristol,https://uob-hpc.github.io
