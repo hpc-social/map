@@ -51,6 +51,7 @@ address,lat,lng,count,name
 "ann arbor, michigan, united states",42.2681569,-83.7312291,1,
 "julich, germany",50.9220931,6.3611015,1,Robert Speck
 "utrecht, netherlands",52.080985600000005,5.12768396945229,1,
+"jülich, germany",50.9220931,6.3611015,1,Sriramkrishnan Muralikrishnan
 "blacksburg, virginia, united states",37.2296566,-80.4136767,1,Matthew Brown
 "reading, berkshire, united kingdom",51.45200635,-0.9684735493619272,1,
 "lexington, kentucky, united states",38.0464066,-84.4970393,1,
@@ -93,6 +94,7 @@ address,lat,lng,count,name
 "almassora, spain",39.9435743,-0.0634783,2,
 "logan, utah, united states",41.7313063,-111.834914,1,
 "amsterdam, noord-holland, the netherlands",52.3730796,4.8924534,1,
+"zürich, zürich, switzerland",47.3744489,8.5410422,1,
 "albuquerque, nm, us",35.0841034,-106.650985,1,
 "barcelona, spain",41.3828939,2.1774322,1,
 "natal, brazil",-5.805398,-35.2080905,1,
