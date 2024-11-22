@@ -102,3 +102,9 @@ address,lat,lng,count,name
 "hillsboro, oregon, united states",45.5228939,-122.989827,1,
 "bhopal, madhya pradesh, india",23.2584857,77.401989,1,
 "edinburgh, edinburgh, united kingdom",55.9519018,-3.1904199,1,
+"uppsala, sweden",59.8586126,17.6387436,1,Pontus Freyhult
+"chicago, illinois, united states",41.8755616,-87.6244212,2,Sam Foreman
+"lemont, illinois, united states",41.6737149,-88.0016263,1,
+"pocatello, idaho, usa",42.8620287,-112.450627,1,
+"paris, france",48.8588897,2.3200410217200766,1,
+"stockholm, sweden",59.3251172,18.0710935,1,Andrey Alekseenko
