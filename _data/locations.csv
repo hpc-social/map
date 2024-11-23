@@ -21,7 +21,7 @@ address,lat,lng,count,name
 "melbourne, victoria, australia",-37.8142176,144.9631608,1,Matt
 "austin, texas, united states",30.2711286,-97.7436995,2,Joshua Mora
 "college station, texas, united states",30.5955289,-96.3071042,1,
-"albuquerque, new mexico, united states",35.0841034,-106.650985,2,
+"albuquerque, new mexico, united states",35.0841034,-106.650985,3,
 "taunton, somerset, united kingdom",51.0147895,-3.1029086,1,
 "ottawa, ontario, canada",45.4208777,-75.6901106,1,FelixCLC
 "oakland, california, united states",37.8044557,-122.271356,1,Glenn K. Lockwood
@@ -108,3 +108,6 @@ address,lat,lng,count,name
 "pocatello, idaho, usa",42.8620287,-112.450627,1,
 "paris, france",48.8588897,2.3200410217200766,1,
 "stockholm, sweden",59.3251172,18.0710935,1,Andrey Alekseenko
+"boise, idaho, united states",43.6166163,-116.200886,1,
+"starkville, mississippi, united states",33.4638745,-88.8152074,1,
+"winnipeg, canada",49.8955367,-97.1384584,1,
